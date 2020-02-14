@@ -20,7 +20,10 @@ extension Article {
     @NSManaged public var created_at: Date?
     @NSManaged public var image: Data?
     @NSManaged public var language: String?
-    @NSManaged public var title: String?
     @NSManaged public var updated_at: Date?
+    @NSManaged public var title: String?
 
+    override public var description: String {
+           return "\(title!)\n\(content!)\n\(language!)\n\(created_at!)\n\(updated_at!)\n"
+       }
 }

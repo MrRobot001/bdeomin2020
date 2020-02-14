@@ -15,10 +15,10 @@
 		7F2F80A6D0741B85668ADCA6CAA89F1F /* Pods-bdeomin2020_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDCD570EF0C0CC9EDE4B65D39F48EF25 /* Pods-bdeomin2020_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80BC53BF226F0151325C5CBB2B659B7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A78DD96FDD8237BE96DE279152DF899E /* Pods-bdeomin2020_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8848050E629427E9BA773222001312 /* Pods-bdeomin2020_Tests-dummy.m */; };
-		E594431B23F6FC05001AA0FB /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E594431923F6FC05001AA0FB /* article.xcdatamodeld */; };
-		E594432423F7036A001AA0FB /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E594432223F7036A001AA0FB /* Article+CoreDataClass.swift */; };
-		E594432523F7036A001AA0FB /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E594432323F7036A001AA0FB /* Article+CoreDataProperties.swift */; };
-		E594432723F7040D001AA0FB /* ArticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E594432623F7040D001AA0FB /* ArticleManager.swift */; };
+		E594432B23F70AAC001AA0FB /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E594432923F70AAC001AA0FB /* article.xcdatamodeld */; };
+		E594433623F70B9B001AA0FB /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E594433423F70B9B001AA0FB /* Article+CoreDataClass.swift */; };
+		E594433723F70B9B001AA0FB /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E594433523F70B9B001AA0FB /* Article+CoreDataProperties.swift */; };
+		E594433923F70BE0001AA0FB /* ArticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E594433823F70BE0001AA0FB /* ArticleManager.swift */; };
 		FF7C1A575F10B0008500E3CDBBAE7569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,10 +70,10 @@
 		DD8848050E629427E9BA773222001312 /* Pods-bdeomin2020_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bdeomin2020_Tests-dummy.m"; sourceTree = "<group>"; };
 		DF1C33B83821A69AF8C037EE96520CB2 /* bdeomin2020-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "bdeomin2020-dummy.m"; sourceTree = "<group>"; };
 		E141A8737C11F50A8C8B56A1D9C6BE3F /* Pods-bdeomin2020_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-bdeomin2020_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E594431A23F6FC05001AA0FB /* article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
-		E594432223F7036A001AA0FB /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataClass.swift"; sourceTree = "<group>"; };
-		E594432323F7036A001AA0FB /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E594432623F7040D001AA0FB /* ArticleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleManager.swift; sourceTree = "<group>"; };
+		E594432A23F70AAC001AA0FB /* article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
+		E594433423F70B9B001AA0FB /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E594433523F70B9B001AA0FB /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E594433823F70BE0001AA0FB /* ArticleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleManager.swift; sourceTree = "<group>"; };
 		FDCD570EF0C0CC9EDE4B65D39F48EF25 /* Pods-bdeomin2020_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bdeomin2020_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -230,10 +230,10 @@
 		E594431523F6FAE3001AA0FB /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				E594432223F7036A001AA0FB /* Article+CoreDataClass.swift */,
-				E594432323F7036A001AA0FB /* Article+CoreDataProperties.swift */,
-				E594432623F7040D001AA0FB /* ArticleManager.swift */,
-				E594431923F6FC05001AA0FB /* article.xcdatamodeld */,
+				E594433423F70B9B001AA0FB /* Article+CoreDataClass.swift */,
+				E594433523F70B9B001AA0FB /* Article+CoreDataProperties.swift */,
+				E594433823F70BE0001AA0FB /* ArticleManager.swift */,
+				E594432923F70AAC001AA0FB /* article.xcdatamodeld */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -403,10 +403,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E594432523F7036A001AA0FB /* Article+CoreDataProperties.swift in Sources */,
-				E594432423F7036A001AA0FB /* Article+CoreDataClass.swift in Sources */,
-				E594432723F7040D001AA0FB /* ArticleManager.swift in Sources */,
-				E594431B23F6FC05001AA0FB /* article.xcdatamodeld in Sources */,
+				E594433723F70B9B001AA0FB /* Article+CoreDataProperties.swift in Sources */,
+				E594433623F70B9B001AA0FB /* Article+CoreDataClass.swift in Sources */,
+				E594433923F70BE0001AA0FB /* ArticleManager.swift in Sources */,
+				E594432B23F70AAC001AA0FB /* article.xcdatamodeld in Sources */,
 				2EC01B7F24A86340D533975FC2301D87 /* bdeomin2020-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -794,14 +794,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		E594431923F6FC05001AA0FB /* article.xcdatamodeld */ = {
+		E594432923F70AAC001AA0FB /* article.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				E594431A23F6FC05001AA0FB /* article.xcdatamodel */,
+				E594432A23F70AAC001AA0FB /* article.xcdatamodel */,
 			);
-			currentVersion = E594431A23F6FC05001AA0FB /* article.xcdatamodel */;
-			name = article.xcdatamodeld;
-			path = ../../mzhurba/d08/mzhurba2019/mzhurba2019/Assets/article.xcdatamodeld;
+			currentVersion = E594432A23F70AAC001AA0FB /* article.xcdatamodel */;
+			path = article.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
