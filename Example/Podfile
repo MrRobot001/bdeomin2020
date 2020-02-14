@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'bdeomin2020_Example' do
+  pod 'bdeomin2020', :path => '../'
+
+  target 'bdeomin2020_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
