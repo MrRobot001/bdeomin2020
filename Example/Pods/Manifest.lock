@@ -1,0 +1,16 @@
+PODS:
+  - bdeomin2020 (0.1.0)
+
+DEPENDENCIES:
+  - bdeomin2020 (from `../`)
+
+EXTERNAL SOURCES:
+  bdeomin2020:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  bdeomin2020: 2a17feaac1605421688632d8d97702b719c76244
+
+PODFILE CHECKSUM: 2e57036513efb563ccbd87fcf2f7c1a73822a5dd
+
+COCOAPODS: 1.8.4

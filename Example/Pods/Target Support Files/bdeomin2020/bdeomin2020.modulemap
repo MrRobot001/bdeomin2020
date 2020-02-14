@@ -1,0 +1,6 @@
+framework module bdeomin2020 {
+  umbrella header "bdeomin2020-umbrella.h"
+
+  export *
+  module * { export * }
+}
